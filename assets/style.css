@@ -357,6 +357,21 @@ a {
     .sm-mb-0 {
         margin-bottom: 0 !important;
     }
+
+    .sm-pr-0 {
+        padding-right: 0 !important;
+    }
+    .sm-mx-1 {
+        margin-left: 0.15rem !important;
+        margin-right: 0.15rem !important;
+    }
+    .sm-mb-2 {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+.pr-1rem {
+    padding-right: 1rem;
 }
 
 @media(min-width: 768px){
@@ -377,6 +392,7 @@ table tbody tr td,
 table tbody tr th {
     background-color: transparent !important;
     color: white !important;
+    font-family: 'Inter', sans-serif;
     border: none !important;
 }
 
@@ -511,4 +527,23 @@ table tbody tr th {
 .contact-item:hover {
     cursor: pointer;
     color: #BDF309;
+}
+
+.footer-contact-item {
+    transition: all 0.1s ease-in-out;
+}
+.footer-contact-item:hover {
+    cursor: pointer;
+    color: #BDF309;
+    /* fill: #BDF309; */
+    & path:nth-of-type(1),
+    & path:nth-of-type(6),
+    & path:nth-of-type(4)
+    {
+        fill: #BDF309;
+    }
+}
+
+.mr-3 {
+    margin-right: 1.6rem;
 }
