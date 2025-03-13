@@ -359,6 +359,12 @@ a {
     }
 }
 
+@media(min-width: 768px){
+    .flex-md-nowrap {
+        flex-wrap: nowrap !important;
+    }
+}
+
 table {
     width: 100% !important;
     /* border: 1px solid var(--main-color) !important; */
